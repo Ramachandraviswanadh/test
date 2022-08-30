@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+
+:root{
+    --color-primary:rgb(5, 182, 253);
+    --color-secondary:rgb(255, 255, 255);
+
+    
+   }
+.section-1{
+    height: 80vh;
+    background-image: url('car-bg.jpg');
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px;
+   
+    
+}
+.section-1 .automotive {
+    padding: 30px;
+   
+}
+.section-1 .automotive .navigation button{
+    background-color:var(--color-primary);
+    padding: 20px 8px;
+   color: var(--color-secondary);
+   margin-left: 30px;
+
+}
+
+.section-1 .automotive .navigation {
+    display: flex;
+    justify-content: right;
+    align-items:center;
+   
+    
+    
+}
+.section-1 .automotive .navigation .appointment{
+    border: 10px snow;
+}
+
+
+.navigation ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 50px;
+
+}
+
+.section-1 .navigation ul li {
+    color: var(--color-secondary);
+}
+.section-1 h1 {
+    color: var(--color-secondary);
+}
+.section-1 .info{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.section-1 .info h1{
+    font-size: 50px;
+    margin-top: 10px;
+ color:var(--color-primary);
+}
+
+.section-1 .info h2{
+    margin-top: 20px;
+    color:var(--color-secondary);
+   }
+   .section-1 .info button{
+    margin-top: 10px;
+    padding: 20px;
+    font-size: medium;
+    background-color: var(--color-primary);
+    color:var(--color-secondary);
+   }
+
+.section-2{
+    background-color: black;
+    display: flex;
+    padding: 70px;
+    justify-content: space-around ;
+    align-items: center;
+
+}
+
+.section-2 h3{
+    color: var(--color-primary);
+
+}
+
+.section-2 h4{
+    gap: 20px;
+    color: var(--color-secondary);
+}
+
